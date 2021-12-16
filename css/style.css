@@ -1,0 +1,38 @@
+body{
+margin: 0;
+padding: 0;
+}
+
+.container{
+	width: 90%;
+}
+
+.item-menu{
+	text-align: center;
+	margin: 30px auto;
+}
+.item-menu ul li{
+	list-style: none;
+	padding: 12px 15px;
+	display: inline-block;
+	border: 2px solid crimson;
+	cursor: pointer;
+	margin-right: 10px;
+	border-radius: 5px;
+	font-size: 20px;
+	font-weight: 600;
+}
+.item-menu ul li:hover, .item-menu ul li:active{
+	background: crimson;
+	color: white;
+}
+.item-details{
+	width: 100%;	
+}
+.item-details img{
+	max-width: 90%;
+	height: 100%;
+	margin-bottom:30px;
+	border: 1px solid lightgrey;
+	cursor: pointer;		
+}
